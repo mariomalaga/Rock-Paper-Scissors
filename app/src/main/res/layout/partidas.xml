@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txtnumeropartida"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="41dp"
+            android:layout_marginLeft="41dp"
+            android:layout_marginTop="35dp"
+            android:text="@string/numeropartida" />
+
+        <TextView
+            android:id="@+id/txtsacojugador"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="73dp"
+            android:layout_marginLeft="73dp"
+            android:layout_marginTop="77dp"
+            android:text="@string/jugadorsaca" />
+
+        <TextView
+            android:id="@+id/txtsacomaquina"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/txtsacojugador"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="125dp"
+            android:text="@string/maquinasaca" />
+
+        <TextView
+            android:id="@+id/txtgana"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/txtsacojugador"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="171dp"
+            android:text="@string/gana" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

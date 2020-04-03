@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">FINALFEBRERO17ANDROID</string>
+    <string name="txtusuarios">Usuarios del juego</string>
+    <string name="txtUsuario">Usuario:</string>
+    <string name="contrasena">Contraseña:</string>
+    <string name="jugar">Jugar</string>
+    <string name="btnmaquina">Jugar con maquina</string>
+    <string name="borrar">DELETE FROM jugadores</string>
+    <string name="insertar">INSERT INTO jugadores (nombre,contrasena) VALUES </string>
+    <string name="numeropartida">Partida Nº</string>
+    <string name="jugadorsaca">Jugador Saca:</string>
+    <string name="maquinasaca">Máquina Saca:</string>
+    <string name="gana">Gana:</string>
+    <string name="btnconsultar">Consultar partidas</string>
+    <string name="juego">Número juego:</string>
+    <string name="usuario">Usuario:</string>
+    <string-array name="opciones_array">
+        <item>Piedra</item>
+        <item>Papel</item>
+        <item>Tijeras</item>
+    </string-array>
+</resources>
